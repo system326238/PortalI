@@ -1,0 +1,16 @@
+name: Build SwiftUI App
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build iOS App
+        run: |
+          xcodebuild build \
+            -scheme YourAppName \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 15'
