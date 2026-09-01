@@ -1,22 +1,27 @@
-// swift-tools-version:5.5
+// swift-tools-version: 6.0
 import PackageDescription
 
 let package = Package(
-    name: "PortalInvasion",
+    name: "PortalInvasionApp",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v18)
     ],
     products: [
-        .library(
-            name: "PortalInvasion",
-            targets: ["PortalInvasion"]
+        // EXPORTED OUTPUT: Exposes your code as an executable app or library
+        .executable(
+            name: "PortalInvasionApp",
+            targets: ["PortalInvasionApp"]
         )
     ],
+    dependencies: [
+        // Add third-party Swift package dependencies here
+    ],
     targets: [
-        .target(
-            name: "PortalInvasion",
+        // INTERNAL MODULE: Compiles your Swift source code files
+        .executableTarget(
+            name: "PortalInvasionApp",
             dependencies: [],
-            path: "."
+            path: "." // Tells SPM to read source files in the current folder (Views, Game, etc.)
         )
     ]
 )
