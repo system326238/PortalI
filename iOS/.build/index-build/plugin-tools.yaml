@@ -1,0 +1,47 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "PortalInvasion-x86_64-unknown-windows-msvc-debug.module": ["<PortalInvasion-x86_64-unknown-windows-msvc-debug.module>"]
+  "main": ["<PortalInvasion-x86_64-unknown-windows-msvc-debug.module>"]
+  "test": ["<PortalInvasion-x86_64-unknown-windows-msvc-debug.module>"]
+default: "main"
+nodes:
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "<PortalInvasion-x86_64-unknown-windows-msvc-debug.module>":
+    tool: phony
+    inputs: ["C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\PortalInvasion.swiftmodule"]
+    outputs: ["<PortalInvasion-x86_64-unknown-windows-msvc-debug.module>"]
+
+  "C.PortalInvasion-x86_64-unknown-windows-msvc-debug.module":
+    tool: shell
+    inputs: ["C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\ContentCatalog.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\PortalInvasionGameModel.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\PortalInvasionApp.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GamePlayView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GameRootView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\MenuView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ProfileView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ShopView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\WorldSelectView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--5818B13C96DF2544.txt","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources"]
+    outputs: ["C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\PortalInvasion.swiftmodule"]
+    description: "Compiling Swift Module 'PortalInvasion' (9 sources)"
+    args: ["C:\\Users\\ANUPAM DWIVEDI\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe","-module-name","PortalInvasion","-emit-dependencies","-emit-module","-emit-module-path","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\PortalInvasion.swiftmodule","-output-file-map","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\output-file-map.json","-parse-as-library","-incremental","@C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources","-I","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules","-target","x86_64-unknown-windows-msvc","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\index\\store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache","-parseable-output","-parse-as-library","-static","-emit-objc-header","-emit-objc-header-path","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\include\\PortalInvasion-Swift.h","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-sdk","C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\","-libc","MD","-I","C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows","-I","C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64","-L","C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64","-I","C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows","-L","C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64","-use-ld=lld","-g","-use-ld=lld","-Xcc","-D_MT","-Xcc","-D_DLL","-Xcc","-Xclang","-Xcc","--dependent-lib=msvcrt","-Xcc","-gdwarf"]
+
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\ContentCatalog.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\PortalInvasionGameModel.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\PortalInvasionApp.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GamePlayView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GameRootView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\MenuView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ProfileView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ShopView.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\WorldSelectView.swift"]
+    outputs: ["C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources"]
+    description: "Write auxiliary file C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources"
+
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--5818B13C96DF2544.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","C:\\Users\\ANUPAM DWIVEDI\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe"]
+    outputs: ["C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--5818B13C96DF2544.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--5818B13C96DF2544.txt"
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS/","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Package.swift","C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
