@@ -1,0 +1,349 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.PortalInvasion-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\ANUPAM DWIVEDI\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources",
+      "importPath" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\ContentCatalog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\PortalInvasionGameModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\PortalInvasionApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GamePlayView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GameRootView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\MenuView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ProfileView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ShopView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\WorldSelectView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--5818B13C96DF2544.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PortalInvasion",
+      "moduleOutputPath" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\PortalInvasion.swiftmodule",
+      "objects" : [
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ContentCatalog.swift.o",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionGameModel.swift.o",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionApp.swift.o",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GamePlayView.swift.o",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GameRootView.swift.o",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\MenuView.swift.o",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ProfileView.swift.o",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ShopView.swift.o",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\WorldSelectView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\include\\PortalInvasion-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf"
+      ],
+      "outputFileMapPath" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ContentCatalog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionGameModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GamePlayView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GameRootView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\MenuView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ProfileView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ShopView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\WorldSelectView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\PortalInvasion.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\ContentCatalog.swift",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\PortalInvasionGameModel.swift",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\PortalInvasionApp.swift",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GamePlayView.swift",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GameRootView.swift",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\MenuView.swift",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ProfileView.swift",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ShopView.swift",
+        "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\WorldSelectView.swift"
+      ],
+      "tempsPath" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "PortalInvasion" : [
+      "C:\\Users\\ANUPAM DWIVEDI\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "PortalInvasion",
+      "-c",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\ContentCatalog.swift",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\PortalInvasionGameModel.swift",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\PortalInvasionApp.swift",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GamePlayView.swift",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GameRootView.swift",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\MenuView.swift",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ProfileView.swift",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ShopView.swift",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\WorldSelectView.swift",
+      "-I",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\include\\PortalInvasion-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Program Files (x86)\\SwiftUI 6\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-driver-use-frontend-path",
+      "C:\\Users\\ANUPAM DWIVEDI\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe"
+    ]
+  },
+  "targetDependencyMap" : {
+    "PortalInvasion" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\ContentCatalog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\PortalInvasionGameModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\PortalInvasionApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GamePlayView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GameRootView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\MenuView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ProfileView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ShopView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\WorldSelectView.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\sources"
+    },
+    "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--5818B13C96DF2544.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\ANUPAM DWIVEDI\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe"
+        }
+      ],
+      "outputFilePath" : "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--5818B13C96DF2544.txt"
+    }
+  }
+}
