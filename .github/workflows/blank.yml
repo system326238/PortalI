@@ -19,6 +19,9 @@ jobs:
         with:
           xcode-version: '16.0'
 
-      - name: Build for iOS Simulator
+      - name: Build for iOS 18 Simulator
         working-directory: ./iOS
-        run: swift build -v -Xswiftc -target -Xswiftc arm64-apple-ios18.0-simulator -Xswiftc -sdk -Xswiftc $(xcrun --sdk iphonesimulator --show-sdk-path)
+        run: |
+          xcodebuild build \
+            -scheme PortalInvasionApp \
+            -destination 'platform=iOS Simulator,name=iPhone 16'
