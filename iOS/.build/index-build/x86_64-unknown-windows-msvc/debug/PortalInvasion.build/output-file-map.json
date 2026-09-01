@@ -1,0 +1,68 @@
+{
+  "": {
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\primary.swiftdeps"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\ContentCatalog.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ContentCatalog.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ContentCatalog.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ContentCatalog~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ContentCatalog.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ContentCatalog.dia"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Game\\PortalInvasionGameModel.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionGameModel.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionGameModel.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionGameModel~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionGameModel.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionGameModel.dia"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\PortalInvasionApp.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionApp.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionApp.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionApp~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionApp.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\PortalInvasionApp.dia"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GamePlayView.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GamePlayView.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GamePlayView.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GamePlayView~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GamePlayView.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GamePlayView.dia"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\GameRootView.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GameRootView.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GameRootView.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GameRootView~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GameRootView.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\GameRootView.dia"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\MenuView.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\MenuView.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\MenuView.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\MenuView~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\MenuView.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\MenuView.dia"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ProfileView.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ProfileView.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ProfileView.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ProfileView~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ProfileView.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ProfileView.dia"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\ShopView.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ShopView.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ShopView.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ShopView~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ShopView.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\ShopView.dia"
+  },
+  "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\Views\\WorldSelectView.swift": {
+    "dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\WorldSelectView.d",
+    "object": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\WorldSelectView.swift.o",
+    "swiftmodule": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\WorldSelectView~partial.swiftmodule",
+    "swift-dependencies": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\WorldSelectView.swiftdeps",
+    "diagnostics": "C:\\SysVM\\~dirVScip\\PortalInvasion\\Prototypes\\Enhanced #2\\iOS\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\PortalInvasion.build\\WorldSelectView.dia"
+  }
+}
