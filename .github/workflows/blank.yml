@@ -23,5 +23,5 @@ jobs:
         working-directory: ./iOS
         run: |
           xcodebuild build \
-            -scheme PortalInvasionApp \
-            -destination 'platform=iOS Simulator,name=iPhone 16'
+            -target PortalInvasionApp \
+            -sdk iphonesimulator
